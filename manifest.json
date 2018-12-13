@@ -1,24 +1,25 @@
 {
-  "manifest_version": 2,
-  "name": "nofbclid",
-  "version": "1.2",
-  "description": "Strips Facebooks's fbclid param from url requests",
-  "icons": {
-    "48": "icons/logo-48.png"
-  },
-  "permissions": [
-    "webRequest",
-    "webRequestBlocking",
-    "<all_urls>"
-  ],
-  "background": {
-    "scripts": [
-      "nofbclid.js"
-    ]
-  },
-  "applications": {
-    "gecko": {
-      "id": "nofbclid@nboughton.uk"
+    "manifest_version": 2,
+    "name": "fbclid-fixed",
+    "version": "1.0",
+    "description": "Fixes the Facebooks fbclid param from outbound links by removing it.",
+    "icons": {
+        "48": "icons/logo-48.png",
+        "96": "icons/logo-96.png"
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "fbclid-fixer.js"
+        ]
+    },
+    "applications": {
+        "gecko": {
+            "id": "fbclid-fixer@andreimaxim.ro"
+        }
     }
-  }
 }
