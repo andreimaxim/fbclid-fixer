@@ -28,6 +28,6 @@ Using `URLSearchParams.delete('fbclid')` you will end up with the following URL:
 http://example.com?foo=
 ```
 
-In some cases, this might break the sites. One example is the (DirectPoll)[http://directpoll.com/] site but there are others. This add-on handles those cases slightly better and tries to do only one thing in a very simple way.
+In some cases, this might break the sites. One example is the [DirectPoll](http://directpoll.com/) site but there are others. This add-on handles those cases slightly better and tries to do only one thing in a very simple way.
 
 Icon made by [Prettycons](https://rbx_www.flaticon.com/authors/prettycons) and it's available for free from [FlatIcon](https://www.flaticon.com/free-icon/location_811222).
