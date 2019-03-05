@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "fbclid-fixed",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Fixes the Facebook fbclid param from outbound links by removing it.",
     "icons": {
         "48": "icons/logo-48.png",
